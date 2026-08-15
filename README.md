@@ -38,43 +38,7 @@
 <br/>
 
 <!-- ========================================================================= -->
-<!-- 🎧 LIVE AUDIO FREQUENCY & CODING FLOW VIBE                                -->
-<!-- ========================================================================= -->
-
-<p align="center">
-  <img src="./assets/audio-visualizer.svg" width="100%" alt="Audio Frequency Waveform" />
-</p>
-
-<br/>
-
-<!-- ========================================================================= -->
-<!-- 📐 INTERACTIVE SYSTEM ARCHITECTURE BLUEPRINT                              -->
-<!-- ========================================================================= -->
-
-<details>
-<summary><b>📐 &nbsp;Inspect System Architecture Blueprint <i>(Click to Expand)</i></b></summary>
-<br/>
-
-```mermaid
-graph TD
-    UI["📱 Presentation Layer\n(Flutter UI • Reactive Views • State Observers)"] --> STATE["⚙️ State Management\n(BLoC • Provider • Event-Driven)"]
-    STATE --> DOMAIN["🧠 Domain & Business Logic\n(Use Cases • Core Entities • Validators)"]
-    DOMAIN --> DATA["📦 Data & Repository Layer\n(REST API Clients • Local Storage • Cache)"]
-    DATA --> CLOUD["🌐 Cloud Infrastructure\n(FastAPI • Node.js • PostgreSQL • MongoDB)"]
-
-    style UI fill:#1e1b4b,stroke:#8b5cf6,stroke-width:2px,color:#fff
-    style STATE fill:#0f172a,stroke:#06b6d4,stroke-width:2px,color:#fff
-    style DOMAIN fill:#1e1b4b,stroke:#ec4899,stroke-width:2px,color:#fff
-    style DATA fill:#0f172a,stroke:#10b981,stroke-width:2px,color:#fff
-    style CLOUD fill:#1e1b4b,stroke:#3b82f6,stroke-width:2px,color:#fff
-```
-
-</details>
-
-<br/>
-
-<!-- ========================================================================= -->
-<!-- 🏙️ 3D ISOMETRIC SKYLINES & REAL-TIME GITHUB TELEMETRY                     -->
+<!-- 🏙️ 3D ISOMETRIC SKYLINE & CONTRIBUTION TELEMETRY                          -->
 <!-- ========================================================================= -->
 
 ### 🏙️ &nbsp;3D Isometric Skyline &amp; Contribution Telemetry
@@ -107,20 +71,6 @@ graph TD
   </table>
 
   <br/>
-
-  <!-- GitHub Streak Telemetry -->
-  <a href="https://github.com/lavitratyagi">
-    <img src="https://streak-stats.demolab.com/?user=lavitratyagi&theme=tokyonight&hide_border=true&background=070A12&ring=8b5cf6&fire=06b6d4&currStreakLabel=8b5cf6" alt="GitHub Streak" width="95%"/>
-  </a>
-
-  <br/><br/>
-
-  <!-- GitHub Dynamic Activity Graph -->
-  <a href="https://github.com/lavitratyagi">
-    <img src="https://github-readme-activity-graph.vercel.app/graph?username=lavitratyagi&bg_color=070A12&color=8B5CF6&line=06B6D4&point=e2e8f0&area=true&area_color=8B5CF6&hide_border=true" width="95%" alt="Contribution Wave Graph" />
-  </a>
-
-  <br/><br/>
 
   <!-- Dynamic Contribution Grid Snake -->
   <picture>
