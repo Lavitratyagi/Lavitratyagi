@@ -1,145 +1,163 @@
 <div align="center">
 
-<!-- Header Banner -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:667eea,50:764ba2,100:f093fb&height=240&section=header&text=LAVITRA%20TYAGI&fontSize=65&fontColor=ffffff&animation=twinkling&fontAlignY=32&desc=Crafting%20Code%20%C2%B7%20Shipping%20Apps%20%C2%B7%20Solving%20Problems&descAlignY=55&descSize=18&descColor=e0e0e0" width="100%"/>
+<!-- ========================================================================= -->
+<!-- 🌟 BESPOKE LASER-DRAWN VECTOR PORTRAIT & HOLOGRAPHIC HERO DOSSIER         -->
+<!-- ========================================================================= -->
+<p align="center">
+  <img src="./assets/hero-hologram.svg" width="100%" alt="Lavitra Tyagi Holographic Hero Dossier" />
+</p>
 
-<!-- Typing Animation -->
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&duration=3000&pause=1000&color=A78BFA&center=true&vCenter=true&multiline=false&random=false&width=620&lines=Software+Developer+%26+Student+%F0%9F%8E%93;Builder+of+Apps+%26+Breaker+of+Bugs+%F0%9F%90%9B;Crafting+Clean+Code+%26+Pixel-Perfect+UIs+%E2%9C%A8;Turning+Ideas+Into+Working+Software+%F0%9F%9A%80)](https://git.io/typing-svg)
+<!-- Live JetBrains Mono Terminal Typing Stream -->
+<p align="center">
+  <a href="https://git.io/typing-svg">
+    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=20&duration=2500&pause=900&color=06B6D4&center=true&vCenter=true&multiline=false&width=720&lines=%E2%9A%A1+Architecting+Modern+Flutter+%26+Cross-Platform+Mobile+Apps;%F0%9F%9A%80+Engineering+Resilient+FastAPI+%26+Node.js+Backend+Microservices;%F0%9F%92%8E+Zero-Fluff.+Clean+Architecture.+Relentless+Execution;%F0%9F%94%A5+Turning+Visionary+Blueprints+Into+High-Performance+Code." alt="Typing Stream" />
+  </a>
+</p>
 
-<br/>
-
-<!-- Profile Views & Followers -->
-<a href="https://github.com/lavitratyagi">
-  <img src="https://komarev.com/ghpvc/?username=lavitratyagi1&label=Profile%20Views&color=A78BFA&style=for-the-badge" alt="Profile Views"/>
-</a>
-&nbsp;
-<a href="https://github.com/lavitratyagi?tab=followers">
-  <img src="https://img.shields.io/github/followers/lavitratyagi?label=Followers&style=for-the-badge&color=238636&labelColor=0d1117" alt="Followers"/>
-</a>
+<!-- Live Telemetry Status Pills -->
+<p align="center">
+  <img src="https://img.shields.io/badge/CORE_STATUS-ONLINE%20%E2%97%8F%20ACTIVE-0d1117?style=for-the-badge&logo=statuspal&logoColor=10B981&labelColor=0d1117&color=10B981" alt="Status"/>
+  &nbsp;
+  <img src="https://komarev.com/ghpvc/?username=lavitratyagi1&label=DOSSIER%20VIEWS&color=8B5CF6&style=for-the-badge&labelColor=0d1117" alt="Profile Views"/>
+  &nbsp;
+  <img src="https://img.shields.io/github/followers/lavitratyagi?label=NETWORK&style=for-the-badge&color=06B6D4&labelColor=0d1117" alt="Followers"/>
+</p>
 
 </div>
 
 <br/>
 
-## <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="28"> &nbsp;About Me
+<!-- ========================================================================= -->
+<!-- 🛠️ HARDWARE BUS & BESPOKE TECH MATRIX                                     -->
+<!-- ========================================================================= -->
 
-```yaml
-name: Lavitra Tyagi
-location: India 🇮🇳
-role: Software Developer & Student
-passion: Building apps, websites, and everything in between
-motto: "Builder of Apps & Breaker of Bugs 🐛"
+<p align="center">
+  <img src="./assets/tech-matrix.svg" width="100%" alt="Tech Matrix Hardware Bus" />
+</p>
 
-what_i_do:
-  - Build beautiful & performant mobile apps
-  - Craft responsive and dynamic websites
-  - Turn caffeine into clean code ☕
+<br/>
 
-open_to: Collaborations, freelance projects, and cool ideas 🤝
-fun_fact: "I live in front of my laptop screen and I regret nothing 😄"
+<!-- ========================================================================= -->
+<!-- 🎧 LIVE AUDIO FREQUENCY & CODING FLOW VIBE                                -->
+<!-- ========================================================================= -->
+
+<p align="center">
+  <img src="./assets/audio-visualizer.svg" width="100%" alt="Audio Frequency Waveform" />
+</p>
+
+<br/>
+
+<!-- ========================================================================= -->
+<!-- 📐 INTERACTIVE SYSTEM ARCHITECTURE BLUEPRINT                              -->
+<!-- ========================================================================= -->
+
+<details>
+<summary><b>📐 &nbsp;Inspect System Architecture Blueprint <i>(Click to Expand)</i></b></summary>
+<br/>
+
+```mermaid
+graph TD
+    UI["📱 Presentation Layer\n(Flutter UI • Reactive Views • State Observers)"] --> STATE["⚙️ State Management\n(BLoC • Provider • Event-Driven)"]
+    STATE --> DOMAIN["🧠 Domain & Business Logic\n(Use Cases • Core Entities • Validators)"]
+    DOMAIN --> DATA["📦 Data & Repository Layer\n(REST API Clients • Local Storage • Cache)"]
+    DATA --> CLOUD["🌐 Cloud Infrastructure\n(FastAPI • Node.js • PostgreSQL • MongoDB)"]
+
+    style UI fill:#1e1b4b,stroke:#8b5cf6,stroke-width:2px,color:#fff
+    style STATE fill:#0f172a,stroke:#06b6d4,stroke-width:2px,color:#fff
+    style DOMAIN fill:#1e1b4b,stroke:#ec4899,stroke-width:2px,color:#fff
+    style DATA fill:#0f172a,stroke:#10b981,stroke-width:2px,color:#fff
+    style CLOUD fill:#1e1b4b,stroke:#3b82f6,stroke-width:2px,color:#fff
 ```
 
+</details>
+
 <br/>
 
-## 🛠️ &nbsp;Tech Stack
+<!-- ========================================================================= -->
+<!-- 🏙️ 3D ISOMETRIC SKYLINES & REAL-TIME GITHUB TELEMETRY                     -->
+<!-- ========================================================================= -->
+
+### 🏙️ &nbsp;3D Isometric Skyline &amp; Contribution Telemetry
 
 <div align="center">
 
-### Languages
-<p>
-  <img src="https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"/>
-  <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white"/>
-  <img src="https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white"/>
-  <img src="https://img.shields.io/badge/C-A8B9CC?style=for-the-badge&logo=c&logoColor=black"/>
-  <img src="https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=csharp&logoColor=white"/>
-</p>
+  <!-- 3D City Skyline (Auto-generated via GitHub Actions) -->
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./profile-3d-contrib/profile-night-rainbow.svg">
+    <source media="(prefers-color-scheme: light)" srcset="./profile-3d-contrib/profile-night-rainbow.svg">
+    <img src="./profile-3d-contrib/profile-night-rainbow.svg" width="100%" alt="3D Isometric Contribution Skyline" onerror="this.style.display='none'"/>
+  </picture>
 
-### Frameworks & Tools
-<p>
-  <img src="https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white"/>
-  <img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white"/>
-  <img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black"/>
-</p>
+  <br/>
 
-### Databases
-<p>
-  <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white"/>
-  <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white"/>
-  <img src="https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white"/>
-</p>
+  <!-- Stats & Language Telemetry Grid -->
+  <table border="0">
+    <tr>
+      <td align="center">
+        <a href="https://github.com/lavitratyagi">
+          <img src="https://github-readme-stats.vercel.app/api?username=lavitratyagi&show_icons=true&theme=tokyonight&hide_border=true&bg_color=070A12&title_color=8b5cf6&icon_color=06b6d4&text_color=e2e8f0&include_all_commits=true&count_private=true" alt="GitHub Stats" height="175"/>
+        </a>
+      </td>
+      <td align="center">
+        <a href="https://github.com/lavitratyagi">
+          <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=lavitratyagi&layout=compact&theme=tokyonight&hide_border=true&bg_color=070A12&title_color=8b5cf6&text_color=e2e8f0&include_all_commits=true&count_private=true" alt="Top Languages" height="175"/>
+        </a>
+      </td>
+    </tr>
+  </table>
 
-### Dev Environment
-<p>
-  <img src="https://img.shields.io/badge/Android_Studio-3DDC84?style=for-the-badge&logo=androidstudio&logoColor=white"/>
-  <img src="https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white"/>
-  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/>
-</p>
+  <br/>
+
+  <a href="https://github.com/lavitratyagi">
+    <img src="https://github-readme-streak-stats.herokuapp.com/?user=lavitratyagi&theme=tokyonight&hide_border=true&background=070A12&ring=8b5cf6&fire=06b6d4&currStreakLabel=8b5cf6" alt="GitHub Streak" width="95%"/>
+  </a>
+
+  <br/><br/>
+
+  <!-- Dynamic Contribution Grid Snake -->
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/lavitratyagi/lavitratyagi/output/github-contribution-grid-snake-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/lavitratyagi/lavitratyagi/output/github-contribution-grid-snake.svg">
+    <img alt="GitHub Contribution Snake" src="https://raw.githubusercontent.com/lavitratyagi/lavitratyagi/output/github-contribution-grid-snake-dark.svg" width="95%">
+  </picture>
 
 </div>
 
 <br/>
 
-## 📊 &nbsp;GitHub Analytics
+<!-- ========================================================================= -->
+<!-- ⌘K TRANSMISSION DOCK & CONNECT HUB                                        -->
+<!-- ========================================================================= -->
+
+<p align="center">
+  <img src="./assets/command-hub.svg" width="100%" alt="Command Hub Dock" />
+</p>
 
 <div align="center">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=lavitratyagi&show_icons=true&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=A78BFA&icon_color=A78BFA&text_color=c9d1d9&include_all_commits=true&count_private=true" alt="GitHub Stats"/>
-  &nbsp;&nbsp;
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=lavitratyagi&layout=compact&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=A78BFA&text_color=c9d1d9&include_all_commits=true&count_private=true" alt="Top Languages"/>
-</div>
 
-<br/>
+  <p><b>Initialize direct transmission or explore networks:</b></p>
 
-<div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=lavitratyagi&theme=github-dark-blue&hide_border=true&background=0d1117&stroke=30363d&ring=A78BFA&fire=A78BFA&currStreakLabel=A78BFA" alt="GitHub Streak"/>
-</div>
-
-<br/>
-
-<div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=lavitratyagi&bg_color=0d1117&color=A78BFA&line=A78BFA&point=c9d1d9&area=true&area_color=A78BFA&hide_border=true" width="95%" alt="Contribution Graph"/>
-</div>
-
-<br/>
-
-## 🤝 &nbsp;Connect With Me
-
-<div align="center">
   <a href="https://www.linkedin.com/in/lavitra-tyagi-ab376b296/" target="_blank">
     <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
+  </a>
+  &nbsp;
+  <a href="mailto:lavitratyagi@gmail.com" target="_blank">
+    <img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail"/>
   </a>
   &nbsp;
   <a href="https://instagram.com/lavitra_tyagi" target="_blank">
     <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram"/>
   </a>
   &nbsp;
-  <a href="mailto:lavitratyagi@gmail.com" target="_blank">
-    <img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail"/>
+  <a href="https://github.com/lavitratyagi" target="_blank">
+    <img src="https://img.shields.io/badge/GitHub_Profile-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
   </a>
-</div>
-
-<br/>
-
-## 💭 &nbsp;Dev Wisdom
-
-<div align="center">
-
-> *"Programming is the art of turning imagination into reality through the strokes of logic and the canvas of code."*
-
-<br/>
-
-> *"Debugging: Being the detective in a crime movie where you're also the murderer."* 🔍
 
 </div>
 
 <br/>
 
-<!-- Footer -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:667eea,50:764ba2,100:f093fb&height=120&section=footer" width="100%"/>
-
+<!-- Sleek Cyber Wave Divider Footer -->
 <div align="center">
-  <img src="https://img.shields.io/badge/Thanks%20for%20visiting!-0d1117?style=for-the-badge&logo=github&logoColor=A78BFA" alt="Thanks"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:8b5cf6,50:4c1d95,100:070a12&height=85&section=footer" width="100%"/>
 </div>

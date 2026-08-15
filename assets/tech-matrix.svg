@@ -1,0 +1,144 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 320" width="100%" height="100%">
+  <defs>
+    <linearGradient id="chipBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#111827"/>
+      <stop offset="100%" stop-color="#0B0F19"/>
+    </linearGradient>
+
+    <linearGradient id="neonCyan" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#06B6D4"/>
+      <stop offset="100%" stop-color="#3B82F6"/>
+    </linearGradient>
+
+    <linearGradient id="neonPurple" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#8B5CF6"/>
+      <stop offset="100%" stop-color="#EC4899"/>
+    </linearGradient>
+
+    <filter id="chipGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <style>
+    @keyframes circuitPulse {
+      0%, 100% { opacity: 0.3; }
+      50% { opacity: 1; }
+    }
+    @keyframes ledBlink {
+      0%, 100% { fill: #10B981; }
+      50% { fill: #06B6D4; }
+    }
+    .bus-line { stroke-dasharray: 6, 6; stroke: #334155; stroke-width: 1.2; }
+    .bus-active { stroke: #8B5CF6; stroke-width: 1.5; animation: circuitPulse 3s infinite ease-in-out; }
+    .led-light { animation: ledBlink 2s infinite ease-in-out; }
+    .chip-text { font-family: 'JetBrains Mono', monospace; font-weight: 700; font-size: 13px; fill: #F1F5F9; }
+    .cat-text { font-family: 'JetBrains Mono', monospace; font-weight: 800; font-size: 11px; letter-spacing: 2px; }
+  </style>
+
+  <!-- Container Base -->
+  <rect width="1000" height="320" rx="16" fill="#070A12" stroke="#1F293D" stroke-width="1.8"/>
+
+  <!-- Top Header Bar -->
+  <path d="M 20 20 L 20 40 L 980 40 L 980 20" fill="none" stroke="#1E293B" stroke-width="1"/>
+  <text x="35" y="32" class="cat-text" fill="#8B5CF6">
+    ■ HARDWARE BUS &amp; TECH MATRIX ARCHITECTURE
+  </text>
+  <text x="965" y="32" text-anchor="end" class="cat-text" fill="#06B6D4">
+    // SYSTEM ARSENAL 4.0
+  </text>
+
+  <!-- Bus Traces -->
+  <line x1="50" y1="120" x2="950" y2="120" class="bus-active" filter="url(#chipGlow)"/>
+  <line x1="50" y1="220" x2="950" y2="220" class="bus-line"/>
+  <line x1="250" y1="40" x2="250" y2="300" class="bus-line"/>
+  <line x1="500" y1="40" x2="500" y2="300" class="bus-line"/>
+  <line x1="750" y1="40" x2="750" y2="300" class="bus-line"/>
+
+  <!-- ========================================================================= -->
+  <!-- ROW 1: MOBILE & CLIENT LAYER                                              -->
+  <!-- ========================================================================= -->
+  <!-- Chip 1: Flutter -->
+  <g transform="translate(45, 65)">
+    <rect width="200" height="52" rx="8" fill="url(#chipBg)" stroke="#8B5CF6" stroke-width="1.2" filter="url(#chipGlow)"/>
+    <circle cx="20" cy="26" r="4.5" class="led-light"/>
+    <text x="38" y="24" class="cat-text" fill="#8B5CF6" font-size="9.5">CORE CLIENT</text>
+    <text x="38" y="42" class="chip-text">FLUTTER ENGINE</text>
+    <rect x="155" y="14" width="32" height="24" rx="4" fill="#1E1B4B" stroke="#8B5CF6" stroke-width="0.8"/>
+    <text x="171" y="30" text-anchor="middle" font-family="monospace" font-size="10" fill="#06B6D4">v3</text>
+  </g>
+
+  <!-- Chip 2: Dart -->
+  <g transform="translate(280, 65)">
+    <rect width="200" height="52" rx="8" fill="url(#chipBg)" stroke="#06B6D4" stroke-width="1.2"/>
+    <circle cx="20" cy="26" r="4.5" fill="#06B6D4"/>
+    <text x="38" y="24" class="cat-text" fill="#06B6D4" font-size="9.5">LANGUAGE</text>
+    <text x="38" y="42" class="chip-text">DART // OOP</text>
+  </g>
+
+  <!-- Chip 3: Python -->
+  <g transform="translate(515, 65)">
+    <rect width="200" height="52" rx="8" fill="url(#chipBg)" stroke="#EC4899" stroke-width="1.2"/>
+    <circle cx="20" cy="26" r="4.5" fill="#EC4899"/>
+    <text x="38" y="24" class="cat-text" fill="#EC4899" font-size="9.5">BACKEND CORE</text>
+    <text x="38" y="42" class="chip-text">PYTHON 3.x</text>
+  </g>
+
+  <!-- Chip 4: FastAPI -->
+  <g transform="translate(750, 65)">
+    <rect width="200" height="52" rx="8" fill="url(#chipBg)" stroke="#10B981" stroke-width="1.2" filter="url(#chipGlow)"/>
+    <circle cx="20" cy="26" r="4.5" fill="#10B981"/>
+    <text x="38" y="24" class="cat-text" fill="#10B981" font-size="9.5">ASYNC API</text>
+    <text x="38" y="42" class="chip-text">FASTAPI REST</text>
+  </g>
+
+  <!-- ========================================================================= -->
+  <!-- ROW 2: BACKEND, DATA & SYSTEMS                                            -->
+  <!-- ========================================================================= -->
+  <!-- Chip 5: Node.js / Express -->
+  <g transform="translate(45, 160)">
+    <rect width="200" height="52" rx="8" fill="url(#chipBg)" stroke="#1E293B" stroke-width="1.2"/>
+    <circle cx="20" cy="26" r="4" fill="#3B82F6"/>
+    <text x="38" y="24" class="cat-text" fill="#3B82F6" font-size="9.5">MICROSERVICE</text>
+    <text x="38" y="42" class="chip-text">NODE.JS / EXPRESS</text>
+  </g>
+
+  <!-- Chip 6: PostgreSQL -->
+  <g transform="translate(280, 160)">
+    <rect width="200" height="52" rx="8" fill="url(#chipBg)" stroke="#1E293B" stroke-width="1.2"/>
+    <circle cx="20" cy="26" r="4" fill="#8B5CF6"/>
+    <text x="38" y="24" class="cat-text" fill="#8B5CF6" font-size="9.5">RELATIONAL DB</text>
+    <text x="38" y="42" class="chip-text">POSTGRESQL</text>
+  </g>
+
+  <!-- Chip 7: MongoDB -->
+  <g transform="translate(515, 160)">
+    <rect width="200" height="52" rx="8" fill="url(#chipBg)" stroke="#1E293B" stroke-width="1.2"/>
+    <circle cx="20" cy="26" r="4" fill="#10B981"/>
+    <text x="38" y="24" class="cat-text" fill="#10B981" font-size="9.5">DOCUMENT DB</text>
+    <text x="38" y="42" class="chip-text">MONGODB ATLAS</text>
+  </g>
+
+  <!-- Chip 8: C++ / C# -->
+  <g transform="translate(750, 160)">
+    <rect width="200" height="52" rx="8" fill="url(#chipBg)" stroke="#1E293B" stroke-width="1.2"/>
+    <circle cx="20" cy="26" r="4" fill="#EC4899"/>
+    <text x="38" y="24" class="cat-text" fill="#EC4899" font-size="9.5">LOW-LEVEL</text>
+    <text x="38" y="42" class="chip-text">C++ / C# SYSTEM</text>
+  </g>
+
+  <!-- Bottom Circuit Bus Footer Details -->
+  <g transform="translate(45, 250)">
+    <rect width="905" height="42" rx="8" fill="#0E1322" stroke="#1E293B" stroke-width="1"/>
+    <text x="25" y="26" class="cat-text" fill="#64748B">
+      ENVIRONMENT: [ LINUX · GIT · ANDROID STUDIO · VS CODE · POSTMAN · DOCKER ]
+    </text>
+    <text x="880" y="26" text-anchor="end" class="cat-text" fill="#10B981">
+      ● 100% BUS BANDWIDTH
+    </text>
+  </g>
+</svg>
