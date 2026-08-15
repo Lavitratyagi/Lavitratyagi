@@ -95,12 +95,12 @@ graph TD
     <tr>
       <td align="center">
         <a href="https://github.com/lavitratyagi">
-          <img src="https://github-readme-stats.vercel.app/api?username=lavitratyagi&show_icons=true&theme=tokyonight&hide_border=true&bg_color=070A12&title_color=8b5cf6&icon_color=06b6d4&text_color=e2e8f0&include_all_commits=true&count_private=true" alt="GitHub Stats" height="175"/>
+          <img src="https://github-readme-stats-fast.vercel.app/api?username=lavitratyagi&show_icons=true&theme=tokyonight&hide_border=true&bg_color=070A12&title_color=8b5cf6&icon_color=06b6d4&text_color=e2e8f0&include_all_commits=true&count_private=true" alt="GitHub Stats" height="175"/>
         </a>
       </td>
       <td align="center">
         <a href="https://github.com/lavitratyagi">
-          <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=lavitratyagi&layout=compact&theme=tokyonight&hide_border=true&bg_color=070A12&title_color=8b5cf6&text_color=e2e8f0&include_all_commits=true&count_private=true" alt="Top Languages" height="175"/>
+          <img src="https://github-readme-stats-fast.vercel.app/api/top-langs/?username=lavitratyagi&layout=compact&theme=tokyonight&hide_border=true&bg_color=070A12&title_color=8b5cf6&text_color=e2e8f0&include_all_commits=true&count_private=true" alt="Top Languages" height="175"/>
         </a>
       </td>
     </tr>
@@ -108,8 +108,16 @@ graph TD
 
   <br/>
 
+  <!-- GitHub Streak Telemetry -->
   <a href="https://github.com/lavitratyagi">
-    <img src="https://github-readme-streak-stats.herokuapp.com/?user=lavitratyagi&theme=tokyonight&hide_border=true&background=070A12&ring=8b5cf6&fire=06b6d4&currStreakLabel=8b5cf6" alt="GitHub Streak" width="95%"/>
+    <img src="https://streak-stats.demolab.com/?user=lavitratyagi&theme=tokyonight&hide_border=true&background=070A12&ring=8b5cf6&fire=06b6d4&currStreakLabel=8b5cf6" alt="GitHub Streak" width="95%"/>
+  </a>
+
+  <br/><br/>
+
+  <!-- GitHub Dynamic Activity Graph -->
+  <a href="https://github.com/lavitratyagi">
+    <img src="https://github-readme-activity-graph.vercel.app/graph?username=lavitratyagi&bg_color=070A12&color=8B5CF6&line=06B6D4&point=e2e8f0&area=true&area_color=8B5CF6&hide_border=true" width="95%" alt="Contribution Wave Graph" />
   </a>
 
   <br/><br/>
