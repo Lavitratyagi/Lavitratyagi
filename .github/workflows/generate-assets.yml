@@ -1,4 +1,4 @@
-name: Generate Snake Animation
+name: Generate Profile Dynamic Assets
 
 on:
   schedule:
@@ -8,7 +8,6 @@ on:
   push:
     branches:
       - main
-      - master
 
 permissions:
   contents: write
@@ -17,7 +16,18 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: Generate Snake SVG
+      - name: Checkout Repository
+        uses: actions/checkout@v3
+
+      # 1. Generate 3D Isometric Skyline
+      - name: Generate 3D Skyline
+        uses: yoshi389111/github-profile-3d-contrib@0.7.1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          USERNAME: ${{ github.repository_owner }}
+
+      # 2. Generate Animated Snake Game
+      - name: Generate Snake Animation
         uses: Platane/snk/svg-only@v3
         with:
           github_user_name: ${{ github.repository_owner }}
@@ -25,7 +35,14 @@ jobs:
             dist/github-contribution-grid-snake.svg
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark&color_snake=#8B5CF6&color_dots=#161b22,#0e4429,#006d32,#26a641,#39d353
 
-      - name: Push Snake SVG to Output Branch
+      # 3. Bundle 3D Skyline into dist
+      - name: Bundle Assets
+        run: |
+          mkdir -p dist
+          cp -r profile-3d-contrib dist/
+
+      # 4. Deploy only to the isolated output branch (Zero commits on main)
+      - name: Deploy to Output Branch
         uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
           target_branch: output

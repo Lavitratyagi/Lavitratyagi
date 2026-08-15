@@ -45,11 +45,11 @@
 
 <div align="center">
 
-  <!-- 3D City Skyline (Auto-generated via GitHub Actions) -->
+  <!-- 3D City Skyline (Auto-generated on output branch) -->
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./profile-3d-contrib/profile-night-rainbow.svg">
-    <source media="(prefers-color-scheme: light)" srcset="./profile-3d-contrib/profile-night-rainbow.svg">
-    <img src="./profile-3d-contrib/profile-night-rainbow.svg" width="100%" alt="3D Isometric Contribution Skyline" onerror="this.style.display='none'"/>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/lavitratyagi/lavitratyagi/output/profile-3d-contrib/profile-night-rainbow.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/lavitratyagi/lavitratyagi/output/profile-3d-contrib/profile-night-rainbow.svg">
+    <img src="https://raw.githubusercontent.com/lavitratyagi/lavitratyagi/output/profile-3d-contrib/profile-night-rainbow.svg" width="100%" alt="3D Isometric Contribution Skyline" onerror="this.style.display='none'"/>
   </picture>
 
   <br/>
