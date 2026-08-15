@@ -54,7 +54,7 @@
 
   <br/>
 
-  <!-- Stats & Language Telemetry Grid -->
+  <!-- Stats & Streak Telemetry Grid -->
   <table border="0">
     <tr>
       <td align="center">
@@ -64,7 +64,7 @@
       </td>
       <td align="center">
         <a href="https://github.com/lavitratyagi">
-          <img src="https://github-readme-stats-fast.vercel.app/api/top-langs/?username=lavitratyagi&layout=compact&theme=tokyonight&hide_border=true&bg_color=070A12&title_color=8b5cf6&text_color=e2e8f0&include_all_commits=true&count_private=true" alt="Top Languages" height="175"/>
+          <img src="https://streak-stats.demolab.com/?user=lavitratyagi&theme=tokyonight&hide_border=true&background=070A12&ring=8b5cf6&fire=06b6d4&currStreakLabel=8b5cf6" alt="GitHub Streak" height="175"/>
         </a>
       </td>
     </tr>
