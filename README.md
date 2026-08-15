@@ -64,7 +64,7 @@
       </td>
       <td align="center">
         <a href="https://github.com/lavitratyagi">
-          <img src="https://streak-stats.demolab.com/?user=lavitratyagi&theme=tokyonight&hide_border=true&background=070A12&ring=8b5cf6&fire=06b6d4&currStreakLabel=8b5cf6" alt="GitHub Streak" height="175"/>
+          <img src="https://github-readme-streak-stats-eight.vercel.app/?user=lavitratyagi&theme=tokyonight&hide_border=true&background=070A12&ring=8b5cf6&fire=06b6d4&currStreakLabel=8b5cf6" alt="GitHub Streak" height="175"/>
         </a>
       </td>
     </tr>
